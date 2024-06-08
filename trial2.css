@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+.üstul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+.üstli{
+    display: inline;
+    margin: 5px 10px 5px;
+    text-align: center;
+    
+}.üstli a img{
+    width: 35px;
+    height: 35px;
+    align-items: center;
+}
+.navbar{
+    overflow: hidden;
+}
+a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.meolan{
+    border-radius: 50%;
+}
+.logoluinput{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+i{
+    position: absolute;
+   margin-top: 8px;
+   margin-left: 500px;
+}
+.logoluinput input{
+    width: 550px;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    height: 35px;
+}
+.buttonludiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+button{
+    margin-left: 10px;
+    height: 30px;
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+}
+.altulsol , .altulsag{
+    display: flex;
+}
+.altlisol , .altlisag{
+    margin: 25px 20px 15px 15px;
+    display: inline;
+    text-align: center;
+}
+.foot .altulsag{
+    text-align: right;
+}
+.foot .altulsol{
+   text-align: left;
+}
+.foot{
+   overflow: hidden;
+   display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
